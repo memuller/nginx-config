@@ -1,2 +1,8 @@
 locals.conf
-sites-enabled/*
+/logs/
+/conf.d/*.conf
+!/conf.d/.default.conf
+!/conf.d/no-ssl.default.conf
+/test/*
+!/test/vhosts/
+/k6/
