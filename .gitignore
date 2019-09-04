@@ -6,3 +6,7 @@ locals.conf
 /test/*
 !/test/vhosts/
 /k6/
+
+/*_params
+/fastcgi.conf
+win-utf
